@@ -1,0 +1,609 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color:#fff3c7;
+}	
+
+*{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+text-align:justify;
+}
+
+#container
+{
+	margin:auto;
+	width:1002px;
+	height:auto;
+}
+#header
+{
+	width:100%;
+	height:213px;
+	margin:auto;
+	padding:0px;
+}	
+.width300
+{
+	width:300px;
+}		
+#deintegro-logo
+{
+	width:320px;
+	height:84px;
+	margin-top:20px;
+	margin-left:20px;
+	padding-bottom:10px;
+}
+#header-border
+{
+	width:100%;
+	height:40px;
+	
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}	
+#header-nav
+{
+	width:970px;
+	height:30px;
+	background-image:url(../image/header-nav.jpg);
+	background-repeat:repeat-x;
+	margin-top:20px;
+	padding-left:30px;
+	padding-top:4px;
+	margin-bottom:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#FFFFFF;
+}	
+#header-nav a:link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#FFFFFF;
+	text-decoration:none;
+}	
+#header-nav a:active
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#FFFFFF;
+	text-decoration:none;
+}	
+#header-nav a:visited
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#header-nav a:hover 
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	color: #FF9900;
+	text-decoration: blink;
+}
+#center-content
+{
+	width:1002px;
+	height:auto;
+	margin:auto;
+	padding:0px;
+}
+.para-index
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:center;
+	margin-left:10px;
+	margin-right:10px;
+}	
+.cipla
+{
+	font-size:14px;
+	font-weight:600;
+	color:#006699;
+	text-align:center;
+}	
+.contact
+{
+	
+	font-size:13px;
+	color:#111111;
+	margin:0px;
+	padding:0px;
+}	
+.tdStyle1
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding-top:0px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-right:5px;
+	/*width:75%;*/
+	text-align:justify;
+	font-size:13px;
+}
+	
+#admin
+{
+	width:1002px;
+	height:auto;
+	margin:auto;
+	padding:0px;
+}
+#product
+{
+	width:950px;
+	height:auto;
+	margin-left:20px;
+	margin-right:15px;
+	padding-top:10px;
+}
+.product-detail
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-family:13px;
+	color:#222222;
+	text-align:justify;
+
+}	
+.all-product
+{
+	width:900px;
+	height:auto;
+	margin-left:20px;
+	margin-right:15px;
+	padding-top:10px;
+
+}
+#product a:link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+#product a:active
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+
+#product a:hover
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+#product a:visited
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+#categories
+{
+	width:950px;
+	height:auto;
+	margin-left:20px;
+	margin-right:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#categories a:link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+#categories a:active
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+
+#categories a:hover
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+#categories a:visited
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+#about-content
+{
+	width:530px;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	margin-left:15px;
+	margin-right:15px;
+	padding-right:15px;
+	padding-bottom:10px;
+	border-right:2px solid #8a9276;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;	
+}
+
+.about
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#111111;
+}	
+.about-client
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333333;
+	
+}	
+
+h1
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:28px;
+	font-weight:600;
+	color:#469bc7;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+#left-content
+{
+	width:590px;
+	height:auto;
+	float:left;
+	margin-top:30px;
+	padding-bottom:10px;
+	
+}	
+#index-content
+{
+	width:581px;
+	height:1050px;
+	float:left;
+	margin-top:10px;
+	margin-right:2px;
+	border-right:2px solid #8a9276;
+}
+hr
+{
+	margin-top:5px;
+	margin-bottom:8px;
+	color:#8a9276;
+	size:1px;
+}
+#contact-content
+{
+	width:530px;
+	height:1040px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:15px;
+	padding-right:10px;
+	border-right:2px solid #8a9276;
+}
+.office
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#222222;
+}
+.width200
+{
+	width:200px;
+}	
+#client-content
+{
+	width:520px;
+	height:auto;
+	float:left;
+	margin-top:5px;
+	margin-left:30px;
+	padding-left:10px;
+	padding-right:5px;
+	padding-bottom:10px;
+	border-right:2px solid #8a9276;
+}
+#home-bg
+{
+	width:520px;
+	height:385px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:10px;
+	margin-bottom:10px;
+}	
+#home-data
+{
+	width:580px;
+	margin-left:9px;
+	margin-top:10px;
+	margin-right:9px;
+	text-align:center;
+}	
+	
+p
+{
+	margin:0px;
+	padding:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#3b7d8a;
+}	
+#right-content
+{
+	height:auto;
+	width:390px;
+	float:right;
+	margin-top:30px;
+	margin-right:5px;
+	/*padding-bottom:10px;*/
+}
+#right-content a:link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+#right-content a:visited
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+
+#right-content a:hover
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+
+#right-content a:active
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+	text-decoration:none;
+}
+
+h3
+{
+	margin-top:5px;
+	margin-bottom:8px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:600;
+	color:#227098;
+}
+
+ul
+{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	color:#1d6a92;
+}
+h5
+{
+	padding:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:0px;
+	margin-right:0px;
+	font-size:16px;
+	font-weight:500;
+	font-weight:500;
+	color:#000000; 
+	
+}
+#login-admin
+{
+	width:200px;
+	height:100px;
+	float:right;
+	margin-right:30px;
+}
+#telecom-product
+{	
+	
+	width:375px;
+	height:130px;
+	margin-top:10px;
+	margin-left:5x;
+	margin-right:5px;
+	margin-bottom:5px;
+}	
+#conferencing-product
+{
+	width:375px;
+	height:140px;
+	margin-bottom:5px;
+	margin-left:5x;
+}
+#cctv-product
+{
+	width:365px;
+	height:130px;
+	margin-left:5x;
+	margin-bottom:5px;
+}
+#music-product
+{
+	width:375px;
+	height:130px;
+	margin-bottom:10px;
+	margin-left:5x;
+}
+
+#conference-installation
+{
+	width:375px;
+	height:235px;
+	margin-bottom:20px;
+	margin-left:5px;
+}
+
+#footer
+{
+	width:100%;
+	height:160px;
+	margin:auto;
+	padding:0px;
+}
+#footer-data
+{
+	width:1000px;
+	height:160px;
+	margin:auto;
+	overflow:hidden;
+	clear:both;
+	padding:0px;
+}
+#footer-brand
+{
+	width:990px;		
+	height:75px;
+	background-image:url(../image/foote-brand.jpg);
+	background-repeat:no-repeat;
+	margin:auto;
+	padding-bottom:15px;
+	border-bottom:2px solid #78826a;
+	border-top:2px solid #78826a;
+}
+
+#foote-nav
+{
+	
+	width:1000px;
+	height:30px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#204258;
+}
+#foote-nav a:link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none;
+	color:#204258;
+}
+#foote-nav a:visited
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none;
+	color:#204258;
+}
+#foote-nav a:active
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none;
+	color:#204258;
+}
+#foote-nav a:hover
+ {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	font-variant: normal;
+	color: #FF9933;
+	text-decoration: none;
+}
+#copyright
+{
+	width:950px;
+	height:40px;
+	margin-left:30px;
+	margin-right:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:600;
+}	
+#copyright  a:link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none;
+	color:#000000;
+}
+#copyright  a:visited
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none;
+	color:#000000;
+}
+#copyright a:hover
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none;
+	color:#000000;
+}
+#copyright  a:visited
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none;
+	color:#000000;
+}
