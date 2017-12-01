@@ -1,0 +1,15 @@
+
+								<!--
+								<?php
+																		 while($row = $result -> fetch_assoc()) {
+																																											   //fetch_assoc() is a method on object result which increses row pointer of associative array of database records by 1 , initially the row pointer is -1
+																?>	
+																		<tr>
+																		<td><?= $row["age"] ?></td>
+																		<td><?= $row["height"] ?></td>
+																		<td><?= $row["address"] ?></td>
+																		</tr>	
+																<?php
+																		 }
+																?>
+																-->

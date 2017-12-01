@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Priority List</title>
+	<link rel="stylesheet" type="text/css" href="../libs/bootstrapv4/css/bootstrap.min.css"> 
+	 <script type="text/javascript" src="../libs/js/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../libs/bootstrapv4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../libs/font-awesome-4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="helper.js" ></script> 
+</head>
+
+<body>
+
+
+	<div class="container">
+		<!-- heading -->
+		<h3 class="heading">Simple Priority List</h3>
+		<small class="text-muted">a tutorial for event binders and AJAX</small>
+		<hr>
+
+
+		<!-- skeleton -->
+		<div class="row">			
+			<form>
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Enter a thing to do .. " name="input_pl" id="input_pl">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Set Priority
+						</button>
+						<div class="dropdown-menu dropdown-menu-right" id="dropdownmenu">
+							<a class="dropdown-item" href="#" id='dropdi' name='1'>Low</a>
+							<a class="dropdown-item" href="#" id='dropdi' name='2'>Medium</a>
+							<a class="dropdown-item" href="#" id='dropdi' name="3">High</a>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<br>
+		<div class="row">
+			<div class="" id="p_list">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th width="80%">Task</th>
+							<th width="20%"><a href="#" id="mark_all_complete" style="color: black;">Mark Complete</a></th>
+						</tr>
+					</thead>
+					<tbody id="table_body">
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
